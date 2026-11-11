@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-latest, windows-latest, blacksmith-6vcpu-macos-latest]
     steps:
       - name: Set up repository
         uses: actions/checkout@v6
